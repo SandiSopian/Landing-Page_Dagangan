@@ -23,7 +23,8 @@
 }
 
 .aboutBottom p {
-  width: 1200px;
+  width: auto;
+  text-align: center;
 }
 
 .about .aboutBottom h1 {
