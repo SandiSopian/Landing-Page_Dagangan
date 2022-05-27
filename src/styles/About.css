@@ -1,8 +1,9 @@
 .about {
   width: 100%;
-  height: 90vh;
+  height: 120vh;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .aboutTop {
@@ -14,25 +15,66 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.logoAbout {
+  width: 91%;
+  height: 63%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0.2;
+  z-index: 0;
+}
+
 .aboutBottom {
   display: flex;
   flex-direction: column;
-  height: 55%;
+  height: auto;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 .aboutBottom p {
   width: auto;
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 25px;
 }
 
 .about .aboutBottom h1 {
   font-weight: 400;
-  font-size: 70px;
+  font-size: 60px;
   color: black;
   height: 30px;
   display: flex;
   justify-content: center;
   transform: translateY(-40px);
+}
+
+/* ================ Media Query ================ */
+
+@media only screen and (max-width: 800px) {
+  .about .aboutBottom h1 {
+    font-size: 50px;
+  }
+
+  .about .aboutBottom p {
+    width: auto;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .about .aboutBottom h4 {
+    width: auto;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .logoAbout {
+    width: 37%;
+    height: 19%;
+  }
 }
