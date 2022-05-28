@@ -10,7 +10,7 @@ function MenuItem({ image, name, desc, order }) {
       <p>{desc}</p>
       <a href="https://api.whatsapp.com/send?text=Mau Pesan Daging!&phone=+6281321349581" target="_blank">
         <span className="order">
-          <AddShoppingCartIcon />
+          <AddShoppingCartIcon className="logoSvg" />
           &nbsp;
           {order}
         </span>
