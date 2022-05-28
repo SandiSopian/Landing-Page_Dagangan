@@ -81,6 +81,10 @@
   .navbar #open a {
     margin: 2px;
   }
+
+  .navbar .rightSide svg {
+    font-size: 36px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
