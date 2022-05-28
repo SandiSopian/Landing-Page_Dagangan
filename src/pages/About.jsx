@@ -3,7 +3,6 @@ import BannerImage from "../assets/images/_bgMeat.jpg";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import "../styles/About.css";
 import LogoAbout from "../assets/images/_logoAbout.png";
-import { Link } from "react-router-dom";
 
 function About() {
   return (
