@@ -6,10 +6,10 @@ import MenuItem from "../components/MenuItem";
 function Menu() {
   return (
     <div className="menu">
-      <h1 className="menuTitle">Order Now!</h1>
+      <h1 className="menuTitle">Pesan Sekarang!</h1>
       <div className="menuList">
         {MenuList.map((menuItem, key) => {
-          return <MenuItem key={key} image={menuItem.image} name={menuItem.name} />;
+          return <MenuItem key={key} image={menuItem.image} name={menuItem.name} desc={menuItem.desc} order={menuItem.order} />;
         })}
       </div>
     </div>

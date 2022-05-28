@@ -1,8 +1,8 @@
 import React from "react";
-import BannerImage from "../assets/images/bgMeat.jpg";
+import BannerImage from "../assets/images/_bgMeat.jpg";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import "../styles/About.css";
-import LogoAbout from "../assets/images/logoAbout.png";
+import LogoAbout from "../assets/images/_logoAbout.png";
 import { Link } from "react-router-dom";
 
 function About() {
@@ -26,18 +26,18 @@ function About() {
           <br />
         </p>
         <p>
-          <b>Kelebihan belanja di Mafia Daging:</b>
+          <b>Kelebihan belanja di Toko Daging Mang Umis:</b>
           <br />
           <br />
           <span>- 100% HALAL</span>
           <br />
-          <span>- Kami pastikan harga dan kualitas bersaing sesuai pasar</span>
+          <span>- Kami pastikan kualitas terbaik dengan harga bersaing </span>
           <br />
           <span>
             - Kami Toko daging terlengkap di pasar <i>Bingung Majalaya</i>
           </span>
           <br />
-          <span>- Foto produk kami sesuaikan dengan yang ada di Toko kami</span>
+          <span>- Foto produk kami usahakan tersedia dengan stock yang ada di Toko kami</span>
           <br />
           <span>- Kami menjual daging segar setiap harinya</span>
           <br />

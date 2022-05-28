@@ -9,9 +9,15 @@ function Footer() {
     <div className="footer">
       <p> Hubungi Kami:</p>
       <div className="socialMedia">
-        <FacebookIcon />
-        <InstagramIcon />
-        <WhatsAppIcon />
+        <a href="https://www.facebook.com/een.nurhaeni.31508">
+          <FacebookIcon />
+        </a>
+        <a href="https://api.whatsapp.com/send?text=Pesan Daging!&phone=+6281321349581" target="_blank">
+          <WhatsAppIcon />
+        </a>
+        <a href="https://www.instagram.com/een.nurhaeni.31508">
+          <InstagramIcon />
+        </a>
       </div>
       <p> &copy; 2022 Best Meat</p>
     </div>
