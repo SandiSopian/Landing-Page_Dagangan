@@ -20,9 +20,10 @@
   justify-content: center;
   align-items: center;
   font-size: 90px;
-  height: 60px;
+  height: 70px;
   font-weight: 50;
   color: black;
+  font-family: cursive;
 }
 
 .headerContainer p {
@@ -52,6 +53,8 @@
   transition: 0.3s ease-in;
 }
 
+/* ================ Media Query ================ */
+
 @media only screen and (max-width: 650px) {
   .home {
     justify-content: center;
@@ -69,16 +72,17 @@
     flex-direction: column;
     background-color: #121619;
     color: white;
+    opacity: 0.5;
   }
 
   .headerContainer h1 {
     font-size: 40px;
-    height: 30px;
+    height: 70px;
     color: white;
   }
 
   .headerContainer p {
-    font-size: 30px;
+    font-size: 26px;
     color: white;
   }
 
