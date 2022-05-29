@@ -42,6 +42,7 @@
 
 .navbar .rightSide svg {
   font-size: 40px;
+  margin-left: -40px;
 }
 
 .navbar #open {
@@ -83,7 +84,8 @@
   }
 
   .navbar .rightSide svg {
-    font-size: 36px;
+    font-size: 40px;
+    margin-left: -40px;
   }
 }
 

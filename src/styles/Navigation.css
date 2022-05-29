@@ -1,0 +1,8 @@
+.navbar-toggler div {
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
