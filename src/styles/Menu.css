@@ -73,7 +73,7 @@
 }
 .menuItem p {
   text-align: center;
-  height: 54px;
+  height: 70px;
 }
 
 /* ================ Media Query ================ */
@@ -126,7 +126,7 @@
     font-size: 10px;
     margin-left: 0px;
     text-align: center;
-    height: 42px;
+    height: 50px;
   }
 
   .menu .menuTitle {
@@ -145,9 +145,5 @@
     -moz-transform: scale(0.9);
     -ms-transform: scale(0.9);
     -o-transform: scale(0.9);
-  }
-
-  .order {
-    bottom: 19px;
   }
 }
